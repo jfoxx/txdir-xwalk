@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p129103-e125984-cmstg.adobeaemcloud.com/bin/franklin.delivery/jfoxx/txdir-xwalk/main"
+    url: "https://author-p49252-e308251-cmstg.adobeaemcloud.com/bin/franklin.delivery/jfoxx/txdir-xwalk/main"
     type: "markup"
     suffix: ".html"
