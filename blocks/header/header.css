@@ -1,9 +1,10 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: var(--color-blue-dark);
   width: 100%;
   z-index: 2;
   position: fixed;
+  padding: 10px 0;
 }
 
 header nav {
@@ -176,10 +177,16 @@ header nav .nav-sections ul  {
 
 header nav .nav-sections ul > li {
   font-weight: 700;
+  color: white;
 }
 
 header nav .nav-sections ul > li > ul {
   margin-top: 0;
+  color: var(--text-color);
+
+  a {
+    color: var(--text-color);
+  }
 }
 
 header nav .nav-sections ul > li > ul > li {
