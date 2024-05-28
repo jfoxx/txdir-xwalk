@@ -204,5 +204,43 @@
          "value": ""
        }
      ]
+  },
+  {
+    "id": "action-card",
+    "fields": [
+      {
+        "component": "text-area",
+        "name": "description",
+        "value": "",
+        "label": "Action Card Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "href",
+        "value": "",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "value": "",
+        "label": "Call to Action text"
+      }
+    ]
+  },
+  {
+    "id": "page-summary",
+    "fields": [
+      {
+        "component": "text-area",
+        "name": "summary",
+        "value": "",
+        "label": "Page Summary Bullets",
+        "valueType": "string"
+      }
+    ]
   }
 ]
